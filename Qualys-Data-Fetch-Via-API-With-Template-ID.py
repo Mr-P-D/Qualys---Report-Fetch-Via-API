@@ -13,7 +13,7 @@ report_title = "Prasad_Test_Report"  # Replace with your report title
 def launch_report():
     url = f'{domain}/api/2.0/fo/report/?'
     headers = {
-        'Authorization': 'Basic pastebase64here',
+        'Authorization': 'Basic dXNlcm5hbWU6cGFzc3dvcmQ=', // add your credentials with this format (username:password) in base64 format 
         'X-Requested-With': 'Power BI'
     }
     data = {
