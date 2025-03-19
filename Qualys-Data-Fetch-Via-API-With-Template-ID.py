@@ -5,7 +5,7 @@ import pandas as pd
 import io
  
 # Global variables
-domain = "https://qualysapi.qg1.apps.qualys.ae"  # Replace with your Qualys domain
+domain = "https://qualysapi.qg1.apps.qualys.ae"  # Replace with your Qualys Cloud Platform Domain
 template_id = "459498"  # Replace with your template ID
 report_title = "Prasad_Test_Report"  # Replace with your report title
  
@@ -13,7 +13,7 @@ report_title = "Prasad_Test_Report"  # Replace with your report title
 def launch_report():
     url = f'{domain}/api/2.0/fo/report/?'
     headers = {
-        'Authorization': 'Basic dXNlcm5hbWU6cGFzc3dvcmQ=', // add your credentials with this format (username:password) in base64 format 
+        'Authorization': 'Basic dXNlcm5hbWU6cGFzc3dvcmQ=', 
         'X-Requested-With': 'Power BI'
     }
     data = {
@@ -37,7 +37,7 @@ def launch_report():
 def download_report(report_id):
     url = f'{domain}/api/2.0/fo/report/?action=fetch&id={report_id}'
     headers = {
-        'Authorization': 'Basic dXNlcm5hbWU6cGFzc3dvcmQ=', // add your credentials with this format (username:password) in base64 format 
+        'Authorization': 'Basic dXNlcm5hbWU6cGFzc3dvcmQ=', 
         'X-Requested-With': 'Power BI'
     }
  
