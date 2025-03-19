@@ -1,6 +1,6 @@
-# Qualys-Report-Fetch-Via-API
-Simple Python Script To Download Vulnerability Scan Results Via QualysAPI With The Help Of TemplateID.
-
+# Qualys Report Fetching Via TemplateID
+<br> Simple Python Script To Download Vulnerability Scan Results Via QualysAPI With The Help Of TemplateID.
+<br> It is expected that you have already created a report template in Qualys Platform and know the TemplateID.
 
 # Usage
 python Qualys-Data-Fetch-Via-API-With-Template-ID.py
