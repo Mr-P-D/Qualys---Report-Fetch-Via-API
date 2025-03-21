@@ -15,7 +15,8 @@ Global Variables modify as per your requirements:
 
 <br> Basic authorization is used in the script:
 <br> Replace dXNlcm5hbWU6cGFzc3dvcmQ= with your Qualys Cloud Platform Credentials in username:password base64 encoded format.
-<br> Example: if your username is prasad and password is qualys then you have to encode prasad:password in base64 and then use that encoded string instead of dXNlcm5hbWU6cGFzc3dvcmQ= in the code.
+<br> Example: 
+<br> if your username is prasad and password is qualys then you have to encode prasad:password in base64 and then use that encoded string instead of dXNlcm5hbWU6cGFzc3dvcmQ= in the code.
 
 
 Once above changes are done, You should be able to get CSV output of the TemplateID as expected.
